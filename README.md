@@ -38,8 +38,10 @@ python3 -m venv .venv   # or `python -m venv .venv` depending on your system
 # Activate the venv
 source .venv/bin/activate
 
+# Install requirements
 python3 -m pip install -r requirements.txt
 
+# Run the program
 python3 app.py
 ```
 
